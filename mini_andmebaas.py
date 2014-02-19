@@ -25,7 +25,7 @@ def add():
     lisamine=raw_input("Millist mangu soovite lisada?: ") 
     lisamine1=raw_input("Mis klassi kuulub?: ")
     lisamine2=raw_input("Kas offline voi online? ")
-    lisatav =("['%s', '%s', '%s']") % (lisamine, lisamine1, lisamine2)
+    lisatav = [lisamine, lisamine1, lisamine2]
     mangud.append(lisatav)
 
     
