@@ -16,9 +16,9 @@ reverse    - tagant ette poole massiiv
 
 
 mangud=[
-['Diablo2', 'action', 'offline'],
-['Starcraft', 'strateegia', 'offline'],
-['World of Warcraft', 'rpg', 'online'],
+    ['Diablo2', 'action', 'offline'],
+    ['Starcraft', 'strateegia', 'offline'],
+    ['World of Warcraft', 'rpg', 'online'],
 ]
 
 def add():
