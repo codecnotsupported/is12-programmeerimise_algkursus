@@ -14,13 +14,7 @@ sort    - t6hestikuj6rjekorras massiiv
 reverse    - tagant ette poole massiiv
 """
 
-"""
-a.reverse()
-print a
-"""
-mang1=['Diablo2', 'action', 'offline']
-mang2=['Starcraft', 'strateegia', 'offline']
-mang3=['World of Warcraft', 'rpg', 'online']
+
 mangud=[
 ['Diablo2', 'action', 'offline'],
 ['Starcraft', 'strateegia', 'offline'],
