@@ -22,7 +22,7 @@ class Player:
         return self.name
 
     def saying(self):
-        "Tere tulemast mängu %s!" % self.name
+        "Welcome to the game %s!" % self.name
 
         
         
