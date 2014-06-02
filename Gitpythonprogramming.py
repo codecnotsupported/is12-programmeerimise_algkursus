@@ -10,7 +10,7 @@ def tts(text):
       return os.system("espeak  -s 155 -a 200 "+text+" " )
 
 m = raw_input("say something: ")
-tts("'+str(m)+' ")
+tts("'"+str(m)+"' ")
 
 
 class Player:
