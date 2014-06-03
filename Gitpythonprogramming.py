@@ -4,14 +4,16 @@
 # selleks käima panemiseks on vaja installida ....espeak....
 
 import os
+import sys
 import datetime
 
 def tts(text):
-      return os.system("espeak  -s 155 -a 200 "+text+" " )
+      return os.system(" espeak -v en "+text+" --stdout|paplay " )
 
 m = raw_input("say something: ")
-tts("'"+str(m)+"' ")
-
+tts("'"+str(m)+"'")
+m = raw_input("say something: ")
+tts("'"+str(m)+"'")
 
 class Player:
     
@@ -26,9 +28,7 @@ class Player:
 
         
         
-mngja=Player()
-mngja.createname(raw_input("Enter name: "))
+mngja=Player() # Save slot for now I guess?
+mngja.createname(raw_input("Guess a name or something?: "))
 mngja.saying()
-tts("'"+str(mngja.saying)+"' ")
-
 
