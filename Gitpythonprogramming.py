@@ -28,7 +28,7 @@ class Player:
 
         
         
-mngja=Player() # Save slot for now I guess?
+mngja=Player() # 1 save slot for now I guess?
 mngja.createname(raw_input("Guess a name or something?: "))
 mngja.saying()
 
